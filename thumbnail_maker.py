@@ -12,7 +12,7 @@ from PIL import Image
 from config import IMG_URLS
 
 FORMAT = "[%(threadName)s, %(asctime)s, %(levelname)s] %(message)s"
-logging.basicConfig(filename=r'C:\Users\Markus.Benninghoff\testing\python-concurrency-getting-started\logfile.log',
+logging.basicConfig(filename=r'logfile.log',
                     level=logging.DEBUG, format=FORMAT)
 
 
